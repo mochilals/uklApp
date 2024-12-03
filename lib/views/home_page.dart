@@ -1,6 +1,6 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:cinema_app/widgets/bottom_navbar.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -95,12 +95,10 @@ class HomePage extends StatelessWidget {
                 viewportFraction: 1,
               ),
               items: [
-                'poster/poster_1.jpg',
-                'poster/poster_2.jpg',
-                'poster/poster_3.jpg',
-                'poster/poster_4.jpg',
-                'poster/poster_5.jpg',
-                'poster/poster_6.jpg',
+                'assets/poster1.jpeg',
+                'assets/poster2.jpeg',
+                'assets/spotlight.jpeg',
+                'assets/spotlight2.jpeg',
               ].map((i) {
                 return Builder(
                   builder: (BuildContext context) {
@@ -109,10 +107,10 @@ class HomePage extends StatelessWidget {
                       margin: EdgeInsets.symmetric(horizontal: 5.0),
                       decoration: BoxDecoration(
                         color: Colors.amber,
-                        borderRadius: BorderRadius.circular(2),
+                        borderRadius: BorderRadius.circular(10),
                       ),
                       child: ClipRRect(
-                        borderRadius: BorderRadius.circular(2),
+                        borderRadius: BorderRadius.circular(10),
                         child: Image.asset(
                           i,
                           fit: BoxFit.cover,
@@ -177,8 +175,8 @@ class HomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
-                            image: AssetImage(
-                                'poster/poster_1.jpg'), // Gambar pertama
+                            image:
+                                AssetImage('assets/444.jpg'), // Gambar pertama
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -209,8 +207,8 @@ class HomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
-                            image: AssetImage(
-                                'poster/poster_2.jpg'), // Gambar kedua
+                            image:
+                                AssetImage('assets/ke4.jpeg'), // Gambar kedua
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -241,8 +239,8 @@ class HomePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
-                            image: AssetImage(
-                                'poster/poster_3.jpg'), // Gambar ketiga
+                            image:
+                                AssetImage('assets/ke5.jpeg'), // Gambar ketiga
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -274,7 +272,7 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
                             image: AssetImage(
-                                'poster/poster_4.jpg'), // Gambar keempat
+                                'assets/bila-esok-ibu-tiada.jpeg'), // Gambar keempat
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -306,7 +304,7 @@ class HomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(8.0),
                           image: DecorationImage(
                             image: AssetImage(
-                                'poster/poster_5.jpg'), // Gambar kelima
+                                'assets/oppenheimer.jpeg'), // Gambar kelima
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -349,7 +347,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
                     image: DecorationImage(
-                      image: AssetImage('poster/poster_1.jpg'),
+                      image: AssetImage('assets/poster1.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -414,7 +412,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
                     image: DecorationImage(
-                      image: AssetImage('poster/poster_2.jpg'),
+                      image: AssetImage('assets/spotlight.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -477,7 +475,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
                     image: DecorationImage(
-                      image: AssetImage('poster/poster_3.jpg'),
+                      image: AssetImage('assets/spotlight2.jpeg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -556,7 +554,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_6.jpg'),
+                          image: AssetImage('assets/ke4.jpeg'),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -571,7 +569,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_5.jpg'),
+                          image: AssetImage('assets/ke5.jpeg'),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -586,7 +584,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_4.jpg'),
+                          image: AssetImage('assets/oppenheimer.jpeg'),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -601,7 +599,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_3.jpg'),
+                          image: AssetImage('444.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -616,7 +614,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_2.jpg'),
+                          image: AssetImage('AVATAR.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -631,7 +629,7 @@ class HomePage extends StatelessWidget {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8.0),
                         image: DecorationImage(
-                          image: AssetImage('poster/poster_1.jpg'),
+                          image: AssetImage('moana.jpeg'),
                           fit: BoxFit.cover,
                         ),
                       ),

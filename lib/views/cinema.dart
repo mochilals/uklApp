@@ -74,7 +74,7 @@ class _BioskopScreenState extends State<CinemaPage> {
             Row(
               children: [
                 Image.asset(
-                  'img/bioskop_pilihan.png',
+                  'assets/icon_star_grey.png',
                   width: 60,
                   height: 60,
                 ),
@@ -105,7 +105,7 @@ class _BioskopScreenState extends State<CinemaPage> {
                     onTap: () {
                       _addToFavorites('AEON MALL JGC CGV');
                     },
-                    imageUrl: 'bioskop/bioskop_1.jpeg',
+                    imageUrl: 'assets/city1.png',
                   ),
                   CinemaCard(
                     name: 'AEON MALL TANJUNG BARAT XXI',
@@ -113,7 +113,7 @@ class _BioskopScreenState extends State<CinemaPage> {
                     onTap: () {
                       _addToFavorites('AEON MALL TANJUNG BARAT XXI');
                     },
-                    imageUrl: 'bioskop/bioskop_2.jpeg',
+                    imageUrl: 'assets/city2.png',
                   ),
                   CinemaCard(
                     name: 'AGORA MALL IMAX',
@@ -121,7 +121,7 @@ class _BioskopScreenState extends State<CinemaPage> {
                     onTap: () {
                       _addToFavorites('AGORA MALL IMAX');
                     },
-                    imageUrl: 'bioskop/bioskop_3.jpg',
+                    imageUrl: 'assets/city4.png',
                   ),
                 ],
               ),

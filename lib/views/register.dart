@@ -94,7 +94,7 @@ class RegisterPage extends StatelessWidget {
                 ),
                 onPressed: () {
                   // Aksi daftar
-                  Navigator.pushReplacementNamed(context, '/home');
+                  Navigator.pushReplacementNamed(context, '/h');
                 },
                 child: Text(
                   'Daftar TIX ID',

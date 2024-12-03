@@ -64,14 +64,14 @@ class _MyTicketPageState extends State<MyTicketPage> {
                     ageRating: "D 13+",
                     genre: "Action, Adventure",
                     rating: 9.5,
-                    imageAsset: 'poster/poster_1.jpg', // Asset Path
+                    imageAsset: 'assets/moana.jpeg', // Asset Path
                   ),
                   MovieCard(
-                    title: "Cinta Dalam Ikhlas",
+                    title: "Oppenheimer",
                     ageRating: "R 17+",
-                    genre: "Action, Adventure",
+                    genre: "Action, Science",
                     rating: 9.3,
-                    imageAsset: 'poster/poster_2.jpg', // Asset Path
+                    imageAsset: 'assets/oppenheimer.jpeg', // Asset Path
                   ),
                 ],
               ),
